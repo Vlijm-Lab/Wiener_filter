@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/719014067.svg)](https://doi.org/10.5281/zenodo.15075205)
+
 <b>Interactive Wiener-filter.</b><br>
 
 Code used to apply wiener-filter to images present in a folder within `data`. To use, copy a folder containing `.tif` or `.tiff` images to use in the `data` folder, see `example_data`. A folder will be created in the `data` in which the Wiener filtered data will be stored, such as in `example_data_wiener`.
