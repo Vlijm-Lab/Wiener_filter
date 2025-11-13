@@ -18,3 +18,9 @@ Code used to apply wiener-filter to images present in a folder within `data`. To
 The images need to be of `.tiff` format, either 2D grayscale or 3D z-stack.<br>
 
 The Wiener filter deconvolves an image by using the information on the Point-Spread-Funcunction (PSF) of the used Stimulated Emission Depletion (STED) and corresponding Confocal laser. Furthermore, the pixel size, noise-to-signal ratio and the signal influence ratio is needed (what ratio of the intensity is coming from STED and the corresponding confocal beam).
+
+<b>Installation</b><br>
+To install all required packages, run the following command:
+```
+pip install -r requirements.txt
+```
