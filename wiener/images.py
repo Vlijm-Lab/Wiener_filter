@@ -248,7 +248,7 @@ def settings_save(foldername, filename, pixel_size, background_subtraction, rati
             fontsize=caption_size, fontweight='bold')
     l += 1
 
-    ax.text(text_space1, l*line_size, f' Pixel size:',  fontsize=text_size)
+    ax.text(text_space1, l*line_size, f' Pixel size (nm):',  fontsize=text_size)
     ax.text(text_space2, l*line_size, f'{pixel_size}',  fontsize=text_size)
     l += 1
 
@@ -263,16 +263,16 @@ def settings_save(foldername, filename, pixel_size, background_subtraction, rati
     l += 1
 
     ax.text(text_space1, l*line_size,
-            f' Signal-to-Noise ratio:',  fontsize=text_size)
+            f' Noise-to-Signal ratio:',  fontsize=text_size)
     ax.text(text_space2, l*line_size, f'{nsr}',  fontsize=text_size)
     l += 1
 
-    ax.text(text_space1, l*line_size, f' Sigma Confocal:',  fontsize=text_size)
+    ax.text(text_space1, l*line_size, f' FWHM Confocal (nm):',  fontsize=text_size)
     ax.text(text_space2, l*line_size, f'{sigma_confocal}',  fontsize=text_size)
     l += 1
 
-    ax.text(text_space1, l*line_size, f' Signal STED:',  fontsize=text_size)
-    ax.text(text_space2, l*line_size, f'{nsr}',  fontsize=text_size)
+    ax.text(text_space1, l*line_size, f' FWHM STED (nm):',  fontsize=text_size)
+    ax.text(text_space2, l*line_size, f'{sigma_sted}',  fontsize=text_size)
     l += 1
 
     plt.tight_layout()
